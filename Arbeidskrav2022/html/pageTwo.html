@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/pageTwo.css" />
+    <script type="module" src="/script/pageTwo.mjs"></script>
+    <title>Search football players</title>
+  </head>
+  <body>
+    <header class="dropdown">
+      <button class="drop-down-button">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div id="dropdownContent" class="dropdownContent">
+        <a href="./pageOne.html">show-all</a>
+        <a href="./pageThree.html">Save new</a>
+        <a href="./pageFour.html">Update & delete</a>
+      </div>
+    </header>
+
+    <main>
+    <form class="player-form">
+        <!-- search by name -->
+        <!-- Fieldset grupperer elementer i HTML Forms -->
+        <fieldset class="player-search-by-name">
+          <label class="label">search by name:</label>
+          <input
+            class="textbox"
+            id="name-txt"
+            placeholder="type in name"
+            type="text"
+          />
+          <input
+            class="btn"
+            id="search-name-btn"
+            type="button"
+            value="SEARCH PLAYER"
+          />
+        </fieldset>
+
+        <!-- search by position -->
+
+        <fieldset>
+          <label class="label">search by position:</label>
+          <input
+            class="textbox"
+            id="position-txt"
+            placeholder="type in position"
+            type="text"
+          />
+          <input
+            class="btn"
+            id="search-position-btn"
+            type="button"
+            value="SEARCH PLAYER"
+          />
+        </fieldset>
+
+        <!-- club option-->
+        <fieldset>
+          <label class="label">search by club:</label>
+          <select class="select" id="club-select">
+            <option class="options">choose club</option>
+            <option value="Manchester City">Manchester City</option>
+            <option value="Liverpool">Liverpool</option>
+            <option value="Arsenal">Arsenal</option>
+            <option value="Manchester United">Manchester United</option>
+            <option value="Tottenham Hotspur">Tottenham Hotspur</option>
+          </select>
+        </fieldset>
+    </form>
+
+      <section id="output-section"></section>
+
+      <footer id="footer">
+        <a class="btn-go-back" href="/html/pageOne.html">
+          <i class="fa fa-caret-left" aria-hidden="true">Back</i>
+        </a>
+      </footer>
+    </main>
+
+    
+
+  </body>
+</html>

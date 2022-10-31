@@ -1,0 +1,66 @@
+    body {
+    background-image: linear-gradient(rgb(102, 46, 193), rgb(255, 255, 255));
+    
+    font-size: 1rem;
+    width: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  .player-name {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(75, 33, 143);
+    color: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    margin: auto;
+    padding: 0rem;
+  }
+
+  .players-box-list {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.59);
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+    max-width: 100%;
+    padding-top: 0;
+    padding-right: 0.625rem;
+    padding-bottom: 0;
+    padding-left: 0.625rem;
+  }
+
+  footer {
+    font-size: 1.25rem;
+    font-family: "Lato", sans-serif;
+    
+    color: rgba(102, 46, 193, 1);
+    position: absolute;
+    bottom: 10px;
+  
+  
+  }
+
+.card-img-top {
+    width: 100%;
+    object-fit: contain;
+}
+
+.col-12 {
+    border-radius: 5px;
+
+}
+
+.card-body {
+    box-shadow: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
+
+
+

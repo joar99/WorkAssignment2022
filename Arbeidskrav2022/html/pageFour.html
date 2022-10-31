@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update and delete</title>
+    <script type="module" src="/script/pageFour.mjs"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="/css/pageFour.css">
+</head>
+<body>
+
+    <header class="dropdown">
+        <button class="drop-down-button">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div id="dropdownContent" class="dropdownContent">
+            <a href="/html/pageOne.html">Show all</a>
+            <a href="/html/pageTwo.html">Search</a>
+            <a href="/html/pageThree.html">Save new</a>
+        </div>
+    </header>
+
+    <h1 class="h1">Update and Delete</h1>
+
+    <!-- Delete player -->
+    <form class="player-form">
+
+        <fieldset class="player-search-by-name">
+            <label class="label">find player to delete:</label>
+            <input class="textbox" id="user-input-delete" placeholder="Enter player Id" type="text" />
+            <input class="btn" id="delete-player-btn" type="button" value="Delete Player" />
+        </fieldset>
+
+    
+    <form class="player-form">
+
+        <fieldset>
+            <label class="label">find player to update</label>
+            <input class="textbox" id="user-input-edit" placeholder="Enter id" type="text" />
+            <input class="textbox" id="player-name-input" placeholder="Enter name" type="text">
+            
+            <input class="textbox" id="player-age-input" placeholder="Enter age" type="text">
+            <input class="textbox" id="player-nation-input" placeholder="Enter nation" type="text">
+            <input class="textbox" id="player-height-input" placeholder="Enter height" type="text">
+            <input class="textbox" id="player-position-input" placeholder="Enter position" type="text">
+            <input class="textbox" id="player-foot-input" placeholder="Enter prefersred foot" type="text">
+            <input class="textbox" id="player-team-input" placeholder="Enter club" type="text">
+            <input class="textbox" id="player-goal-input" placeholder="Enter goals" type="text">
+            <input class="textbox"id="player-image-input" placeholder="image URL" type="text"> 
+            
+            
+            <input class="btn" id="edit-player-btn" type="button" value="Update player" />
+        </fieldset>
+
+    </form>
+
+    <footer id="footer">
+        <a class="btn-go-back" href="/html/pageOne.html">
+            <i class="fa fa-caret-left" aria-hidden="true">Back</i>
+        </a>
+    </footer>
+    </main>
+
+    
+
+    
+    
+
+
+</body>
+</html>
